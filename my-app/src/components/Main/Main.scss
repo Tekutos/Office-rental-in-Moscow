@@ -1,0 +1,17 @@
+.page {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+
+  background: #f2f2f2;
+  &_mainImg {
+    position: absolute;
+    width: 744px;
+    height: 1000px;
+    left: 980px;
+    top: 0px;
+    background-image: url("../../image/imgCover.svg");
+  }
+}
