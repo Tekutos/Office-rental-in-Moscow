@@ -70,10 +70,30 @@ function Logo() {
         </g>
         <defs>
           <clipPath id="clip0_12941_72">
+            <path
+              d="M 75.199749,9.9531541 75.039872,140.99444"
+              fill="none"
+              stroke="#968dfc"
+            ></path>
             <rect width="117" height="22" fill="white" />
           </clipPath>
         </defs>
       </svg>
+      {/* <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <path
+            id="textpath"
+            fill="none"
+            stroke="#000000"
+            d="M0.057,0.024c0,0,10.99,51.603,102.248,51.603c91.259,0,136.172,53.992,136.172,53.992"
+          />
+        </defs>
+
+        <use href="#textpath" />
+        <text x="10" y="100" font-size="22">
+          <textPath href="#textpath">Недвижимость в Москве</textPath>
+        </text>
+      </svg> */}
     </div>
   );
 }

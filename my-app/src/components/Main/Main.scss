@@ -1,11 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
 .page {
   position: absolute;
   width: 1920px;
   height: 1080px;
   left: 0px;
   top: 0px;
-
   background: #f2f2f2;
+  .page_box-1 {
+    .page_navigation {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 60px;
+      position: absolute;
+      width: 600px;
+      height: 24px;
+      left: 387px;
+      top: 83px;
+      .a-1 {
+        width: 114px;
+        height: 24px;
+        text-decoration: none;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #383838;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+      .a-2 {
+        width: 120px;
+        height: 24px;
+        text-decoration: none;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #383838;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+      .a-3 {
+        width: 119px;
+        height: 24px;
+        text-decoration: none;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #383838;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+      .a-4 {
+        width: 67px;
+        height: 24px;
+        text-decoration: none;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #383838;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+    }
+  }
   &_mainImg {
     position: absolute;
     width: 744px;
