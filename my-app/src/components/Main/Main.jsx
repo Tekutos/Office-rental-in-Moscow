@@ -1,4 +1,5 @@
 import React from "react";
+import SocialIntervue from "../socialIntervue/SocialIntervue";
 import SocialMedia from "../SocialMedia/SocialMedia";
 import Logo from "./Logo/Logo";
 import "./Main.scss";
@@ -40,12 +41,14 @@ function Main() {
         <SocialMedia />
       </div>
       <div className={`${base}_mainImg`}></div>
-      <div className={`${base}_rentalConditions`}></div>
-      <div className={`${base}_text1`}>Fair rental conditions</div>
-      <div className={`${base}_text2`}>
-        Rent an office for several months or several years without long-term
-        obligations and commissions
+      <div className={`${base}_rentalConditions`}>
+        <div className={`${base}_text1`}>Fair rental conditions</div>
+        <div className={`${base}_text2`}>
+          Rent an office for several months or several years without long-term
+          obligations and commissions
+        </div>
       </div>
+      <SocialIntervue />
     </div>
   );
 }

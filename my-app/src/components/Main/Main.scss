@@ -205,26 +205,23 @@
     left: 842px;
     top: 970px;
     background: #ffffff;
+    display: flex;
   }
   .page_text1 {
-    position: absolute;
     width: 209.81px;
     height: 60px;
-    left: 980px;
-    top: 1025px;
     font-family: "Playfair Display";
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
     color: #383838;
+    padding-top: 55px;
+    padding-left: 138px;
   }
   .page_text2 {
-    position: absolute;
     width: 345px;
     height: 72px;
-    left: 1257px;
-    top: 1032px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -232,5 +229,8 @@
     line-height: 24px;
     letter-spacing: 0.01em;
     color: #383838;
+    padding-top: 62px;
+    padding-left: 67.19px;
+    // padding-right: 138px;
   }
 }
