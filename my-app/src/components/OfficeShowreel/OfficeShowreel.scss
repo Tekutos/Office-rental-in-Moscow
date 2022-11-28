@@ -1,0 +1,220 @@
+.officeShowreel {
+  .officeShowreel_span1 {
+    white-space: nowrap;
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 150px;
+    top: 3431.13px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #383838;
+    opacity: 0.5;
+  }
+  .officeShowreel_span2 {
+    position: absolute;
+    width: 350px;
+    height: 60px;
+    left: 150px;
+    top: 3471.13px;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #383838;
+  }
+  .officeShowreel_img {
+    position: absolute;
+    width: 1620px;
+    height: 840px;
+    left: 150px;
+    top: 3591.61px;
+    background: url("../../image/imgVideo1.svg");
+    .officeShowreel_ellipse {
+      position: absolute;
+      width: 128px;
+      height: 128px;
+      left: 746px;
+      right: 746px;
+      top: 356px;
+      bottom: 356px;
+      border: 2px solid #e9b0b0;
+      border-radius: 50%;
+      svg {
+        position: absolute;
+        left: 40.15%;
+        right: 30.31%;
+        top: 30.31%;
+        bottom: 30.31%;
+      }
+    }
+  }
+  .officeShowreel_navigationFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+    position: absolute;
+    width: 600px;
+    height: 24px;
+    left: 640.5px;
+    top: 4655px;
+    .a-1 {
+      width: 114px;
+      height: 24px;
+      text-decoration: none;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.01em;
+      color: #383838;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+    .a-2 {
+      width: 120px;
+      height: 24px;
+      text-decoration: none;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.01em;
+      color: #383838;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+    .a-3 {
+      width: 119px;
+      height: 24px;
+      text-decoration: none;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.01em;
+      color: #383838;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+    .a-4 {
+      width: 67px;
+      height: 24px;
+      text-decoration: none;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.01em;
+      color: #383838;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+  }
+  .officeShowreel_span3 {
+    white-space: nowrap;
+    position: absolute;
+    left: 1545.78px;
+    right: 149.22px;
+    top: 4649px;
+    bottom: 292.05px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #383838;
+  }
+  .officeShowreel_span4 {
+    white-space: nowrap;
+    position: absolute;
+    left: 1675px;
+    right: 150px;
+    top: 4683.31px;
+    bottom: 257.69px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #383838;
+    opacity: 0.5;
+  }
+  .officeShowreel_mediaIcon {
+    position: absolute;
+    width: 106px;
+    height: 22px;
+    left: 150px;
+    top: 4744px;
+    display: flex;
+    justify-content: space-between;
+    .officeShowreel_mediaYoutube {
+      width: 24px;
+      height: 19px;
+
+      background-image: url("../../image/iconYoutube.svg");
+    }
+    .officeShowreel_mediaFacebook {
+      width: 24px;
+      height: 19px;
+
+      background-image: url("../../image/iconVK.svg");
+    }
+    .officeShowreel_mediaVK {
+      width: 11px;
+      height: 17px;
+      background-image: url("../../image/iconFB.svg");
+    }
+  }
+  .officeShowreel_footer {
+    position: absolute;
+    width: 1920px;
+    height: 110px;
+    left: 0px;
+    top: 4856.25px;
+    background: #f2f2f2;
+    display: flex;
+    .officeShowreel_text1 {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: 0.01em;
+      color: #383838;
+      opacity: 0.5;
+      padding-top: 40px;
+      padding-left: 150px;
+    }
+    .officeShowreel_text2 {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: 0.01em;
+      color: #383838;
+      opacity: 0.5;
+      padding-top: 41px;
+      padding-left: 51px;
+    }
+  }
+}
