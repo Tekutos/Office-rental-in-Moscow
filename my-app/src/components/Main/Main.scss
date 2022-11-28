@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .page {
   position: absolute;
@@ -80,7 +81,115 @@
         flex-grow: 0;
       }
     }
+    .page_span-1 {
+      position: absolute;
+      width: 170px;
+      height: 20px;
+      left: 391px;
+      top: 295px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #383838;
+      opacity: 0.5;
+    }
+    .page_span-2 {
+      position: absolute;
+      width: 631px;
+      height: 200px;
+      left: 391px;
+      top: 355px;
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 85px;
+      line-height: 100px;
+      color: #383838;
+    }
+    .page_catalog {
+      .page_span-3 {
+        position: absolute;
+        width: 146px;
+        height: 24px;
+        left: 391px;
+        top: 608.54px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #383838;
+      }
+      .page_ellipse {
+        position: absolute;
+        width: 56px;
+        height: 56px;
+        left: 643.5px;
+        top: 595.57px;
+        background: #e9b0b0;
+        border-radius: 50%;
+      }
+      .page_arrow {
+        box-sizing: border-box;
+        position: absolute;
+        width: 85px;
+        height: 0px;
+        left: 586.5px;
+        top: 623.57px;
+        border: 0.5px solid #383838;
+        i {
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          left: 75.5px;
+          top: -3.9px;
+          border: 1px solid #383838;
+          border-width: 0 1px 1px 0;
+          display: inline-block;
+          padding: 3px;
+        }
+
+        .right {
+          transform: rotate(-45deg);
+          -webkit-transform: rotate(-45deg);
+        }
+      }
+    }
+    .page_span-4 {
+      position: absolute;
+      width: 45px;
+      height: 24px;
+      left: 391px;
+      top: 811.76px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.01em;
+      color: #383838;
+    }
+    .page_span-5 {
+      position: absolute;
+      width: 230.05px;
+      height: 72.24px;
+      left: 505px;
+      top: 811.76px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.01em;
+      color: #383838;
+    }
   }
+
   &_mainImg {
     position: absolute;
     width: 744px;
@@ -88,5 +197,40 @@
     left: 980px;
     top: 0px;
     background-image: url("../../image/imgCover.svg");
+  }
+  &_rentalConditions {
+    position: absolute;
+    width: 928px;
+    height: 110px;
+    left: 842px;
+    top: 970px;
+    background: #ffffff;
+  }
+  .page_text1 {
+    position: absolute;
+    width: 209.81px;
+    height: 60px;
+    left: 980px;
+    top: 1025px;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #383838;
+  }
+  .page_text2 {
+    position: absolute;
+    width: 345px;
+    height: 72px;
+    left: 1257px;
+    top: 1032px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #383838;
   }
 }

@@ -1,0 +1,47 @@
+.socialMedia {
+  position: relative;
+  width: 24px;
+  height: 662.5px;
+  left: 148.85px;
+  top: 221.5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  .socialMedia_rightText {
+    white-space: nowrap;
+    min-width: 194px;
+    width: 194px;
+    height: 24px;
+    left: 148.85px;
+    top: 415.5px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    transform: rotate(-90deg);
+    float: right;
+    margin-top: 92px;
+    letter-spacing: 0.01em;
+    color: #383838;
+    opacity: 0.5;
+  }
+  .socialMedia_mediaLine {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 80.26px;
+  }
+  .socialMedia_mediaIcon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .socialMedia_mediaYoutube {
+      padding-bottom: 33px;
+    }
+    .socialMedia_mediaFacebook {
+      padding-bottom: 36px;
+    }
+  }
+}
