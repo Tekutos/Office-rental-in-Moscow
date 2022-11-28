@@ -1,0 +1,163 @@
+.logoBox {
+  position: absolute;
+  width: 117px;
+  height: 22px;
+  left: 150px;
+  top: 4652px;
+}
+
+#svg__lettersG__R {
+  stroke-dashoffset: 50;
+  stroke-dasharray: 50;
+
+  fill-opacity: 0;
+
+  animation: drawN 1.5s forwards;
+}
+@keyframes drawN {
+  0% {
+    stroke-dashoffset: 50;
+  }
+  70% {
+    stroke-dashoffset: 0;
+    fill-opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+#svg__lettersG__E,
+#svg__lettersG__E2 {
+  stroke-dashoffset: 90;
+  stroke-dasharray: 90;
+
+  fill-opacity: 0;
+
+  animation: drawN 1.5s forwards;
+}
+@keyframes drawN {
+  0% {
+    stroke-dashoffset: 90;
+  }
+  70% {
+    stroke-dashoffset: 0;
+    fill-opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+#svg__lettersG__N,
+#svg__lettersG__N2 {
+  stroke-dashoffset: 80;
+  stroke-dasharray: 80;
+
+  fill-opacity: 0;
+
+  animation: drawN 1.5s forwards;
+}
+@keyframes drawN {
+  0% {
+    stroke-dashoffset: 80;
+  }
+  70% {
+    stroke-dashoffset: 0;
+    fill-opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+#svg__lettersG__T {
+  stroke-dashoffset: 63;
+  stroke-dasharray: 63;
+
+  fill-opacity: 0;
+
+  animation: drawN 1.5s forwards;
+}
+@keyframes drawN {
+  0% {
+    stroke-dashoffset: 63;
+  }
+  70% {
+    stroke-dashoffset: 0;
+    fill-opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+#svg__lettersG__I {
+  stroke-dashoffset: 52;
+  stroke-dasharray: 52;
+
+  fill-opacity: 0;
+
+  animation: drawN 1.5s forwards;
+}
+@keyframes drawN {
+  0% {
+    stroke-dashoffset: 52;
+  }
+  70% {
+    stroke-dashoffset: 0;
+    fill-opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+#svg__lettersG__O {
+  stroke-dashoffset: 102;
+  stroke-dasharray: 102;
+
+  fill-opacity: 0;
+
+  animation: drawN 1.5s forwards;
+}
+@keyframes drawN {
+  0% {
+    stroke-dashoffset: 102;
+  }
+  70% {
+    stroke-dashoffset: 0;
+    fill-opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+#svg__lettersG__UPLINE {
+  stroke-dashoffset: 36;
+  stroke-dasharray: 36;
+
+  fill-opacity: 0;
+
+  animation: drawN 1.5s forwards;
+}
+@keyframes drawN {
+  0% {
+    stroke-dashoffset: 36;
+  }
+  70% {
+    stroke-dashoffset: 0;
+    fill-opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}

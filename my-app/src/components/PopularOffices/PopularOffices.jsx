@@ -30,6 +30,31 @@ function PopularOffices() {
       <div className={`${base}_arrow2`}>
         <i className="arrow left"></i>
       </div>
+      <div className={`${base}_ellipse1`}></div>
+      <span className={`${base}_span3`}>o renti one</span>
+      <span className={`${base}_span4`}>8 years of impeccable reputation</span>
+      <span className={`${base}_span5`}>
+        <p>
+          We help entrepreneurs from the CIS countries to find office space in
+          New York, mainly in the central part of the city.
+        </p>
+        Among our clients there are both small startups of 4-6 people, and large
+        businesses with thousands of employees. Therefore, we can help any
+        company, regardless of the scale.
+      </span>
+      <span className={`${base}_span6`}>Go to the catalog</span>
+      <div className={`${base}_ellipse2`}></div>
+      <div className={`${base}_arrow3`}>
+        <i className="arrow right1"></i>
+      </div>
+      <span className={`${base}_span7`}>89</span>
+      <span className={`${base}_span8`}>646</span>
+      <span className={`${base}_span9`}>
+        Properties in Brooklyn, Manhattan, the Bronx and Queens
+      </span>
+      <span className={`${base}_span10`}>
+        Current tenants in Twenty One today
+      </span>
     </div>
   );
 }
